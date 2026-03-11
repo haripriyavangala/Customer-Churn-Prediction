@@ -105,6 +105,8 @@ Model performance is evaluated using accuracy and classification metrics
 
 The trained model is saved using the pickle library for future predictions.
 
+---
+
 ### 10 Using the Saved Model
 
 The saved model can be loaded and used to predict churn for new customers.
