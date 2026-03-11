@@ -112,5 +112,8 @@ The trained model is saved using the pickle library for future predictions.
 The saved model can be loaded and used to predict churn for new customers.
 
 ---
+
+## Monthly Charges Distribution by Churn
+
 <img width="588" height="358" alt="image" src="https://github.com/user-attachments/assets/c984341c-7b92-464f-989d-23dd50f3b729" />
 
