@@ -43,6 +43,8 @@ The dataset contains information such as:
 ### 1 Data Collection
 The dataset is downloaded from Kaggle and stored in the `data/` folder.
 
+---
+
 ### 2 Data Preprocessing
 Data cleaning and transformation steps include:
 
@@ -68,24 +70,36 @@ Example visualization:
 python
 sns.countplot(x="Churn", data=df)
 
+---
+
 ### 4 Feature Engineering
 Feature engineering prepares the dataset for machine learning models by converting categorical variables into numerical format and handling missing values.
+
+---
 
 ### 5 Train-Test Split
 
 The dataset is divided into training and testing sets so that the model can be evaluated on unseen data.
 
+---
+
 ### 6 Model Training
 
 A Logistic Regression model is trained to classify whether a customer will churn or not.
+
+---
 
 ### 7 Model Prediction
 
 The trained model predicts churn for the testing dataset.
 
+---
+
 ### 8 Model Evaluation
 
 Model performance is evaluated using accuracy and classification metrics
+
+---
 
 ### 9 Saving the Model
 
