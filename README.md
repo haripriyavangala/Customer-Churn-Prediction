@@ -65,7 +65,32 @@ Some analysis performed:
 
 Example visualization:
 
-```python
+python
 sns.countplot(x="Churn", data=df)
 
-**4 Feature Engineering**
+### 4 Feature Engineering
+Feature engineering prepares the dataset for machine learning models by converting categorical variables into numerical format and handling missing values.
+
+### 5 Train-Test Split
+
+The dataset is divided into training and testing sets so that the model can be evaluated on unseen data.
+
+### 6 Model Training
+
+A Logistic Regression model is trained to classify whether a customer will churn or not.
+
+### 7 Model Prediction
+
+The trained model predicts churn for the testing dataset.
+
+### 8 Model Evaluation
+
+Model performance is evaluated using accuracy and classification metrics
+
+### 9 Saving the Model
+
+The trained model is saved using the pickle library for future predictions.
+
+### 10 Using the Saved Model
+
+The saved model can be loaded and used to predict churn for new customers.
